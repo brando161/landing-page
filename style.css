@@ -1,3 +1,26 @@
 * {
-    font-family: Roboto, "Trebuchet MS", sans-serif;
+    font-family: "Roboto", "Trebuchet MS", sans-serif;
+}
+
+body {
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
