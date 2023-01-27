@@ -11,9 +11,19 @@ body {
     font-size: 24px;
 }
 
-.header-links {
+.secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.container {
+    background-color: #F9FAF8;              
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 ul {
@@ -23,4 +33,32 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+.info-text,
+.content,
+.quote {
+    color: #1F2937;
+}
+
+.info-text,
+.quote {
+    font-size: 24px;
+}
+
+.info-text {
+    font-weight: bolder;
+}
+.quote {
+    font-style: italic;
+}
+
+#name {
+    font-size: 16px;
+    font-weight: bolder;
 }
