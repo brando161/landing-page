@@ -4,11 +4,24 @@
 
 body {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+/*Go to the class selector where the logo is and set "margin-right" to "auto" to move logo to the left and have everything else to the right.*/
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bolder;
+    margin-right: auto;
 }
 
 .secondary-text {
@@ -28,6 +41,8 @@ body {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 20px;
 }
 
 a {
