@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 0px 30px;
+    margin: 0rem 8rem;
 }
 
 /*Go to the class selector where the logo is and set "margin-right" to "auto" to move logo to the left and have everything else to the right.*/
@@ -26,6 +26,19 @@ body {
 
 .nav-links:hover {
     color: #5a5a5a;
+}
+
+.hero {
+    margin: 8rem;
+    display: flex;
+}
+
+.image {
+    background-color: #555964;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondary-text {
@@ -57,6 +70,11 @@ a {
 button {
     color: #E5E7EB;
     background-color: #3882F6;
+    height: 45px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
 }
 
 .info-text,
